@@ -83,7 +83,7 @@ body {
 
 h1 {
     font-size: 20px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .popis {
@@ -92,7 +92,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 30px;
+    margin: 30px 0;
     text-transform: uppercase;
 }
 
@@ -103,7 +103,8 @@ ul {display: flex;
 li {
     list-style-type: none;
     flex-basis: 16%;
-    text-align: left;  
+    text-align: center; 
+    padding: 10px 0;
 }
 
 .ctyricet {
